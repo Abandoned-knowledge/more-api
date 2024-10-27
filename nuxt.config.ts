@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     public: "../public",
     layouts: "app/layouts",
   },
+  components: {
+    dirs: ["~~/lib/ui-kit"],
+    global: true,
+  },
   tailwindcss: {
     viewer: false,
     disableHMR: true,
